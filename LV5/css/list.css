@@ -1,0 +1,41 @@
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 40%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    align-items: left;
+  }  
+
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }  
+
+  .panel {    
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .list{
+    float: left;
+  }
+ #jpg{    
+    margin-left: auto;      
+  } 
+  body{
+    display: inline-flex;
+  }
+  #container
+  {
+    margin-right: auto;
+  }
+  img
+  {
+    width: 400px;
+  }
